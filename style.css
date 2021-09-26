@@ -1,0 +1,446 @@
+
+.navigation {
+    display: inline-block;
+    width: 73%;
+    font-size: 18px ;
+}
+
+.button {
+    background-color: rgba(184, 129, 145, 77);  /* old: 196, 165, 174, 77  new:184, 129, 145, */
+    border: 4px white; 
+    border-radius: 4px; 
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Roboto", "Verdana", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+}
+
+.button-alt {
+    border: 1px solid rgba(251, 164, 158, 98); 
+    padding: 10px 30px;
+}
+  
+a {
+    color: white;
+}
+
+a:visited {
+    color: #eeeeee;
+}
+
+a:active {
+    color: rgba(251, 164, 158, 0.98);
+}
+
+a:hover {
+    color: rgb(196, 224, 110);
+}
+
+h2 {
+    color: white;
+    text-align: left;
+}
+
+#home-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 240px; 
+    background-image: url("media/wm\ fire\ flower\ smith.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-left: 1.75em; 
+    padding-right: 1.75em; 
+    width: 100%;
+    text-shadow:rgba(81, 136, 153, .6);
+    margin-top: 0px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+#project-banner {
+    position: fixed ;
+    top: 0;
+    left: 0;
+    height: 200px; 
+    width: 100%;
+    background-image: url("media/waterfall\ croatia\ wm.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+}
+
+#contact-banner {
+    position: fixed ;
+    top: 0;
+    left: 0; 
+    background-image: url("media/pillows\ wm.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+#portfolio-banner {
+    position: fixed ;
+    top: 0;
+    left: 0;
+    background-image: url("media/Iceland\ wm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    z-index: 1;  
+}
+
+#about-banner {   
+    position: fixed ;
+    top: 0;
+    left: 0;
+    background-image: url("media/umbrellas\ edited\ wm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+#my-introduction{
+    margin-top: 260px;
+}
+
+.portfolio-table {
+    margin-top: 210px;
+    border: 1px solid black;    
+}
+
+#project-table {
+    border-collapse: collapse; 
+    margin-top: 30px ;
+}
+
+#table-description {
+    margin-top: 140px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(184, 129, 145, 77);
+    color:white;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    color: #222222;
+    font-weight: normal;
+    font-size: 1.1rem;
+    font-family: "Roboto", "Verdana", "Helvetica", "Arial", sans-serif;
+    background-color: rgba(251, 164, 158, 0.98);
+    padding: 22px;
+}
+
+.titlebackground { 
+    margin-top: 20px;
+    display: inline-block; 
+    vertical-align: middle;
+    width: 65%; 
+    height: 150px;
+    background-color: rgba(251, 164, 158, 0.75 );
+} 
+
+.titlemeanu { 
+    display: inline-block; 
+    vertical-align: middle; 
+    width: 75%; 
+    margin-top: 15px;
+    background-color: rgba(251, 164, 158, 0.75 );
+    padding-top: 0;
+} 
+
+.indroduction {
+    margin-top: 210px;
+}
+
+#title {
+    font-size: 60px;
+}
+
+#treephoto {
+    padding: 2px;
+    width: 25%;
+    margin-bottom: 70px;
+}
+
+
+#wluphoto {
+    border: none;
+    padding: 4px;
+}
+
+#projects-part {
+    display: inline-block;
+}
+
+#introduction-two {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.image {
+    width: 160px;
+}
+
+.container {
+    margin: 0 auto; 
+    padding-left: 1.75em; 
+    padding-right: 1.75em; 
+    width: 95%;
+    padding-top: 5%;
+}
+
+.sitefooter {
+    text-align: center;
+}
+
+#home-section {
+    padding-top: 250px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.my-artist-statement {
+    margin-top: 20px;
+}
+
+#photo-me {
+    width: 400px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#tree {
+    width: 400px; 
+}
+
+#wluphoto {
+    width: 550px;
+    padding-right: 50px;
+    padding-left: 0px;
+}
+
+#video {
+    width: 725px; 
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wireframeh {
+    width: 100%;
+}
+
+#wireframea {
+    width: 100%;
+}
+
+#contactform {
+    margin-top: 20px;
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 95%;
+}
+
+.formfield {
+    display: block;
+    margin: .25em 0 1.5em;
+    padding: .5em;
+}
+
+.formfield1 {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+
+.formfield2 {
+    display: block;
+    width: 98%;
+    margin: .25em 0 1.5em;
+    padding: .5em;
+    font-size: 1em;
+    height: 150px;
+}
+
+.formfield1 .formfield2{
+    transition: border .5s ease-in-out, border-radius .5s ease-in-out;
+}
+
+.formfield1:focus, .formfield2:focus {
+  border: 2px solid red;
+  outline: none;
+  border-radius: 3px;
+}
+
+.position {
+    margin-top: 175px;
+}
+
+.quote{
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 95%;
+    font-size: 20px;
+    margin-bottom: -20px;
+    text-align: center;
+
+}
+/* Complex Selectors & Transitions */
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 0px;
+}
+
+form>button {
+    transform: scale(1.05);
+    border: none;
+    transition-property: background, fontsize, font-weight;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .05s;
+    outline: none;
+}
+
+form>button:hover {
+    background: rgba(121, 150, 201);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+form>button:active {
+    background-color: rgba(161, 192, 247);
+} 
+
+p i {
+    color: rgb(196, 224, 110);
+}
+
+button.submit {
+    border: none;
+    transition-property: font-weight, font-size;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .05s;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button.submit:hover {
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    #home-banner {
+        width: 100%;
+        height: 200px;
+    }  
+    h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    .titlebackground {
+        height: 100px;
+        width: 100%;
+    }
+
+    .titlemeanu {
+        width: 100%;
+        height: 178px;
+    }
+
+    #portfolio-banner {
+        height: 150px;
+    }
+
+    #project-banner {
+        height: 150px;
+    }
+
+    .navigation li {
+        font-size: small;
+        margin:0 10px;
+    }
+
+    #short-introduction {
+        margin-bottom: 40px;
+    }
+
+    #title {
+        font-size: 40px;
+    }
+
+    #projects-part {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    #video {
+        width: 400px; 
+    }
+
+    #photo-me {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 300px;
+    }
+
+    .quote {
+        margin-bottom: 5px;
+    }
+
+    #wluphoto {
+        width: 400px;
+    }
+}
